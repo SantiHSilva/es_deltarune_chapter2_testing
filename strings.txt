@@ -14960,31 +14960,31 @@ obj_classscene_slash_Step_0_gml_567_0
 obj_classscene_slash_Step_0_gml_568_0
 \E3* (No llegaria a tiempo.)/%
 obj_classscene_slash_Step_0_gml_574_0
-\E9* Susie^1, please don't kick your desk./
+\E9* Susie^1, por favor no patees tu mesa./
 obj_classscene_slash_Step_0_gml_575_0
-\E4* Treat school property^1, like you'd treat people./%
+\E4* Trata las propiedades de la escuela^1, como tratarias a la gente./%
 obj_classscene_slash_Step_0_gml_579_0
 \E0* ..../
 obj_classscene_slash_Step_0_gml_580_0
-\E1* Okay./
+\E1* Ok./
 obj_classscene_slash_Step_0_gml_581_0
-\E2* Next time I'll aim for the vitals./%
+\E2* A la proxima vez apuntare a los vitales./%
 obj_classscene_slash_Step_0_gml_602_0
-\E9* Th..^1. That's not what I.../%
+\E9* Es..^1. Yo no me referia a eso.../%
 obj_classscene_slash_Step_0_gml_606_0
-\E5* In any case^1, good morning^1, Class!/
+\E5* En cualquier caso^1, buenos dias^1, Clase!/
 obj_classscene_slash_Step_0_gml_607_0
-\E7* We have a lot to go over today.../
+\E7* Tenemos mucho que hacer hoy.../
 obj_classscene_slash_Step_0_gml_608_0
-\E6* First^1, we're starting the reading from page 142!/
+\E6* Primero^1, empezaremos a leer el libro desde la pag 142!/
 obj_classscene_slash_Step_0_gml_609_0
-\E4* Any..^1. any volunteers?/%
+\E4* Algun..^1. Algun voluntario?/%
 obj_classscene_slash_Step_0_gml_616_0
-\E2* Umm^1, I..^1. I guess I could read the.../%
+\E2* Umm^1, Yo..^1. Supongo que podria leer el../%
 obj_classscene_slash_Step_0_gml_626_0
-\E1* Ah^1, trouble yourself not^1, Noelle!/
+\E1* Ah^1, no te molestes^1 Noelle./
 obj_classscene_slash_Step_0_gml_627_0
-\E2* I will valiantly take this blow of humiliation!!/
+\E2* Tomare valientemente este golpe de humillacion!!/
 obj_classscene_slash_Step_0_gml_629_0
 \E3* Umm^1, t-that's OK^1, I can.../%
 obj_classscene_slash_Step_0_gml_643_0
