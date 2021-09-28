@@ -14996,7 +14996,7 @@ obj_classscene_slash_Step_0_gml_645_0
 obj_classscene_slash_Step_0_gml_646_0
 \E4* "Tiempos bastantes buenos. Tiempos bastantes malos."/
 obj_classscene_slash_Step_0_gml_647_0
-\E2* "Mediocre times. Iffy times. So-so times..."/%
+\E2* "Tiempos mediocres. Iffy times. So-so times..."/%
 obj_classscene_slash_Step_0_gml_653_0
 * Listening to this^1, your eyes began to close automatically.../%
 customtimer
