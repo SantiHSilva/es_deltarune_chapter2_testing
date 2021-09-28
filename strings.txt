@@ -14986,13 +14986,13 @@ obj_classscene_slash_Step_0_gml_626_0
 obj_classscene_slash_Step_0_gml_627_0
 \E2* Tomare valientemente este golpe de humillacion!!/
 obj_classscene_slash_Step_0_gml_629_0
-\E3* Umm^1, t-that's OK^1, I can.../%
+\E3* Umm^1, e-eso esta bien^1, Adelante.../%
 obj_classscene_slash_Step_0_gml_643_0
 \E0* A-HEM./
 obj_classscene_slash_Step_0_gml_644_0
-\E1* "Page 142."/
+\E1* "Pagina 142."/
 obj_classscene_slash_Step_0_gml_645_0
-\E3* "It was the best of times^1, it was the worst of times^1,"/
+\E3* "Fue el mejor de los tiempos^1, fue el peor de los tiempos^1,"/
 obj_classscene_slash_Step_0_gml_646_0
 \E4* "Times-a pretty good. Times-a pretty bad."/
 obj_classscene_slash_Step_0_gml_647_0
