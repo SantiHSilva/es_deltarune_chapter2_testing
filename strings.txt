@@ -354,6 +354,8 @@ scr_litemuseb_slash_scr_litemuseb_gml_171_0_b
 * But when you moved the glass away^1,/
 scr_litemuseb_slash_scr_litemuseb_gml_172_0_b
 * You see her looking at you^1, smiling and making a rude gesture./%
+scr_litemuseb_slash_scr_litemuseb_gml_182_0_b
+* You thought you saw through your hand./%
 scr_litemuseb_slash_scr_litemuseb_gml_178_0
 scr_litemuseb_slash_scr_litemuseb_gml_179_0
 * ..^1. but nothing happened./%
@@ -2880,7 +2882,7 @@ scr_text_slash_scr_text_gml_2663_0
 scr_text_slash_scr_text_gml_2662_0
 * (It's your bed.)/
 scr_text_slash_scr_text_gml_2665_0_b
-* (If you go to back to sleep^1, \cYyou may miss a lot of important things\cW.)/
+* (If you go back to sleep^1, \cYyou may miss a lot of important things\cW.)/
 scr_text_slash_scr_text_gml_2664_0
 scr_text_slash_scr_text_gml_2665_0
 scr_text_slash_scr_text_gml_2671_0
@@ -4930,7 +4932,7 @@ scr_text_slash_scr_text_gml_5681_0
 scr_text_slash_scr_text_gml_5682_0
 #Recommendation
 scr_text_slash_scr_text_gml_5683_0
-Salir
+Exit
 scr_text_slash_scr_text_gml_5684_0
 scr_text_slash_scr_text_gml_5700_0
 * Good evening^1, boss./
@@ -5649,7 +5651,7 @@ scr_text_slash_scr_text_gml_6994_0
 scr_text_slash_scr_text_gml_6995_0
 Trash Zone
 scr_text_slash_scr_text_gml_6996_0
-Cancelar
+Cancel
 scr_text_slash_scr_text_gml_6999_0
 * (It's a door.^1)&* (Where will you go?)//
 scr_text_slash_scr_text_gml_6918_0_b
@@ -5906,33 +5908,33 @@ scr_text_slash_scr_text_gml_7485_0
 scr_text_slash_scr_text_gml_7497_0
 #Recruits
 scr_text_slash_scr_text_gml_7498_0
-#Inv. de item
+#Item storage
 scr_text_slash_scr_text_gml_7499_0
-Controles
+Controls
 scr_text_slash_scr_text_gml_7500_0
-No leer
+Do not read
 scr_text_slash_scr_text_gml_7503_0
-* (Es un manual. Que quieres leer?)/
+* (It's a manual. Read a topic?)/
 scr_text_slash_scr_text_gml_7511_0
-* Si tu perdonas suficientes enemigos del mismo tipo^1, seran RECULATDOS./
+* If you SPARE or PACIFY enough enemies of the same type^1, they will be RECRUITed./
 scr_text_slash_scr_text_gml_7512_0
-* Los RECLUTAS aparecerán en la CIUDAD. Qué pasará si los consigues todos...?/
+* RECRUITs will appear in your TOWN. Wonder what happens if you get them all...?/
 scr_text_slash_scr_text_gml_7513_0
-* Puedes consultar la lista en los puntos de guardados. Ciertos JEFES estan excluidos./%
+* You can check the area's RECRUIT status at SAVE POINTS. Certain BOSSES are excluded./%
 scr_text_slash_scr_text_gml_7519_0
-* Ahora tendras acceso a un almacenamiento extra en el menu de los puntos de guardados./
+* You will now have access to a STORAGE menu at SAVE POINTS./
 scr_text_slash_scr_text_gml_7520_0
-* Cuando te quedes sin espacio^1, los ITEMS que encuentres o COMPRES sera enviado al almacenamiento./
+* When you're out of space^1, ITEMs you find or BUY will be sent to your STORAGE./
 scr_text_slash_scr_text_gml_7521_0
-* Sientase libre de poner las cosas dentro los items que podria no ser capaz de usar todavia./%
+* Feel free to put things inside you might not be able to use yet./%
 scr_text_slash_scr_text_gml_7527_0
-* Aqui hay un recordatorio de controles. Cambialos en el menu de configuracion./
+* Here is a reminder of the controls. Change them in the config menu./
 scr_text_slash_scr_text_gml_7528_0
-* ~1&* Confirmar e interactuar con las cosas./
+* ~1&* Confirm and interact with things./
 scr_text_slash_scr_text_gml_7529_0
-* ~1&* Cancelar. Manten para CORRER. Mostrar el texto al instante./
+* ~1&* Cancel. Hold to RUN. Shows all text instantly./
 scr_text_slash_scr_text_gml_7530_0
-* ~1&* Abre el menu. Mantenga pulsado para omitir un dialogo./%
+* ~1&* Opens the menu. Hold down to quickly skip textboxes./%
 scr_text_slash_scr_text_gml_7536_0
 * (There's no time to read books.)/%
 scr_text_slash_scr_text_gml_7568_0
@@ -5964,8 +5966,11 @@ scr_text_slash_scr_text_gml_7625_0
 scr_text_slash_scr_text_gml_7626_0
 * (Look inside?)/
 tempflag
+get_crystal
 scr_text_slash_scr_text_gml_7648_0
 * (You reached inside and found something alongside a strange piece of glass...)/
+scr_text_slash_scr_text_gml_7658_0
+* (You got ShadowCrystal.)/
 remove_shine
 scr_text_slash_scr_text_gml_7674_0
 \EQ* Kris^1, want to re-read my editable CYBERPEDIA entry?/
@@ -6049,7 +6054,7 @@ scr_getmsgno
 gml_Script_draw_text_shadow
 draw_text_shadow
 window_set_caption
-DELTARUNE Capítulo 
+DELTARUNE Chapter 
 gml_Script_scr_windowcaption
 scr_windowcaption
 gml_Script_scr_writer_setspeed
@@ -7201,7 +7206,7 @@ scr_monstersetup_slash_scr_monstersetup_gml_683_0
 King
 scr_monstersetup_slash_scr_monstersetup_gml_694_0
 scr_monstersetup_slash_scr_monstersetup_gml_699_0
-Hablar
+Talk
 scr_monstersetup_slash_scr_monstersetup_gml_705_0
 scr_monstersetup_slash_scr_monstersetup_gml_711_0
 scr_monstersetup_slash_scr_monstersetup_gml_721_0
@@ -10805,7 +10810,7 @@ scr_roomname_slash_scr_roomname_gml_4_0
 Castle Town
 scr_roomname_slash_scr_roomname_gml_5_0
 scr_roomname_slash_scr_roomname_gml_6_0
-La ciudad del Comienzo.
+My Castle Town
 scr_roomname_slash_scr_roomname_gml_7_0
 Cyber Field - Entrance
 scr_roomname_slash_scr_roomname_gml_8_0
@@ -12076,7 +12081,7 @@ scr_84_is_digit
 CH
 FILE
 scr_84_load_ini_slash_scr_84_load_ini_gml_13_0
-[VACIO]
+[EMPTY]
 TIME
 ------------
 PLACE
@@ -12256,6 +12261,7 @@ scr_become_dark_ch1
 gml_Script_scr_litemcheck_ch1
 gml_Script_scr_litemget_ch1
 gml_Script_scr_keyitemcheck_ch1
+gml_Script_scr_litemremove_ch1
 gml_Script_scr_become_light_ch1
 scr_become_light_ch1
 gml_Script_scr_npcdir_ch1
@@ -12273,6 +12279,12 @@ gml_Script_snd_play_ch1
 gml_Script_scr_litemshift_ch1
 gml_Script_scr_lweaponeq_ch1
 gml_Script_scr_lrecoitem_ch1
+scr_litemuseb_slash_scr_litemuseb_gml_95_0
+scr_litemuseb_slash_scr_litemuseb_gml_96_0
+scr_litemuseb_slash_scr_litemuseb_gml_97_0
+scr_litemuseb_slash_scr_litemuseb_gml_98_0
+scr_litemuseb_slash_scr_litemuseb_gml_99_0
+scr_litemuseb_slash_scr_litemuseb_gml_100_0
 scr_litemuseb_slash_scr_litemuseb_gml_72_0
 scr_litemuseb_slash_scr_litemuseb_gml_73_0
 gml_Script_scr_torface_ch1
@@ -12290,12 +12302,13 @@ scr_litemuseb_slash_scr_litemuseb_gml_124_0
 scr_litemuseb_slash_scr_litemuseb_gml_125_0
 gml_Script_scr_litemuseb_ch1
 scr_litemuseb_ch1
-gml_Script_scr_litemremove_ch1
 scr_litemremove_ch1
 gml_Script_scr_litemname_ch1
 scr_litemget_ch1
 scr_litemshift_ch1
 gml_Script_scr_itemcheck_ch1
+scr_litemdesc_slash_scr_litemdesc_gml_37_0
+scr_litemdesc_slash_scr_litemdesc_gml_38_0
 gml_Script_scr_litemdesc_ch1
 scr_litemdesc_ch1
 gml_Script_scr_lrecover_ch1
@@ -13183,6 +13196,8 @@ gml_Script_scr_spelltext_ch1
 scr_spelltext_ch1
 gml_Script_scr_keyiteminfo_ch1
 scr_keyiteminfo_all_ch1
+scr_keyiteminfo_slash_scr_keyiteminfo_gml_41_0
+scr_keyiteminfo_slash_scr_keyiteminfo_gml_42_0
 scr_keyiteminfo_ch1
 scr_iteminfo_slash_scr_iteminfo_gml_14_0
 scr_iteminfo_slash_scr_iteminfo_gml_21_0
@@ -13258,6 +13273,11 @@ scr_itemuse_slash_scr_itemuse_gml_192_0
 scr_itemuse_slash_scr_itemuse_gml_202_0
 scr_itemuse_slash_scr_itemuse_gml_206_0
 scr_itemuse_slash_scr_itemuse_gml_237_0
+scr_itemuse_slash_scr_itemuse_gml_238_0
+scr_itemuse_slash_scr_itemuse_gml_240_0
+scr_itemuse_slash_scr_itemuse_gml_241_0
+scr_itemuse_slash_scr_itemuse_gml_242_0
+scr_itemuse_slash_scr_itemuse_gml_244_0
 gml_Script_scr_itemuse_ch1
 scr_itemuse_ch1
 scr_weaponinfo_slash_scr_weaponinfo_gml_29_0
@@ -14240,7 +14260,7 @@ view_wport
 logopieces
 drawlogopart
 logotimer
-CAPÍTULO 2
+CHAPTER 2
 draw_text_ext
 damagetimer
 defeated
@@ -14454,7 +14474,7 @@ initspeed
 bulcount
 chapter_debug_init
 savedata_error
-DELTARUNE Capítulo 1&2
+DELTARUNE Chapter 1&2
 load_chapter
 switchlogin
 switch_accounts_select_account
@@ -14482,8 +14502,8 @@ console
 latestAvailableChapter
  - - 
 chapname
-El Comienzo.
-Un Mundo Cibernetico.
+The Beginning
+A Cyber's World
 text_font
 roominit
 spr_aftereffect
@@ -14526,33 +14546,33 @@ gameload
 chapterselect
 startNextChapter
 continueChapter
-Capitulo 
+Chapter 
  was completed.
 Play Chapter 
 stringset2
 はクリア済みです。
 をプレイ
-Volver atras
+Chapter Select
 チャプター選択
 select_text
 highestUncompletedChapter=
 highestCompletedChapter=
 Continue from Chapter 
 から続けますか？
-Salir
+Quit
 とじる
 quit
-Capitulo
+Chapter
 chapterstring
 space
 max_options
 heart_xpos
 heart_ypos
 gameloadConfirm
-Jugar
+Play
 プレイする
 stringPlay
- Cancelar
+Do Not
 しない
 stringDoNot
 play_color
@@ -14698,6 +14718,9 @@ obj_pipis_enemy_slash_Step_0_gml_100_0
 PIPIS - ''The Original'' An invasive species of freshwater clam. \f0 /%
 obj_pipis_enemy_slash_Step_0_gml_110_0
 * Nothing happened!/%
+mspipis
+obj_pipis_enemy_slash_Other_22_gml_21_0
+Ms. Pipis
 wallsize
 wallcountmax
 wallcount
@@ -14944,59 +14967,59 @@ obj_classscene_slash_Step_0_gml_494_0
 \EA* (Even Susie showed up before you^1, eheh...)/%
 alttalk
 obj_classscene_slash_Step_0_gml_500_0
-\E3* (Kris^1! estas bien!!)/
+\E3* (Kris^1! You're okay!!)/
 obj_classscene_slash_Step_0_gml_501_0
-\E9* (Estaba realmente preoucupado despues de que desaparecieras ayer...)/
+\E9* (I was really worried after you disappeared yesterday...)/
 obj_classscene_slash_Step_0_gml_502_0
-\E0* (Supongo que podemos hablar de eso despues de clase.)/%
+\E0* (I guess we can talk about that after class.)/%
 al
 al_actor
 be
 be_actor
 obj_classscene_slash_Step_0_gml_566_0
-\E2* (Oye^1, Kris!)/
+\E2* (Hey^1, Kris!)/
 obj_classscene_slash_Step_0_gml_567_0
-\E0* (..^1. Si supiera que vas a llegar tarde..)/
+\E0* (..^1. if I knew you were gonna be late...)/
 obj_classscene_slash_Step_0_gml_568_0
-\E3* (No llegaria a tiempo.)/%
+\E3* (I wouldna showed up on time.)/%
 obj_classscene_slash_Step_0_gml_574_0
-\E9* Susie^1, por favor no patees tu mesa./
+\E9* Susie^1, please don't kick your desk./
 obj_classscene_slash_Step_0_gml_575_0
-\E4* Trata las propiedades de la escuela^1, como tratarias a la gente./%
+\E4* Treat school property^1, like you'd treat people./%
 obj_classscene_slash_Step_0_gml_579_0
 \E0* ..../
 obj_classscene_slash_Step_0_gml_580_0
-\E1* Ok./
+\E1* Okay./
 obj_classscene_slash_Step_0_gml_581_0
-\E2* A la proxima vez apuntare a los vitales./%
+\E2* Next time I'll aim for the vitals./%
 obj_classscene_slash_Step_0_gml_602_0
-\E9* Es..^1. Yo no me referia a eso.../%
+\E9* Th..^1. That's not what I.../%
 obj_classscene_slash_Step_0_gml_606_0
-\E5* En cualquier caso^1, buenos dias^1, Clase!/
+\E5* In any case^1, good morning^1, Class!/
 obj_classscene_slash_Step_0_gml_607_0
-\E7* Tenemos mucho que hacer hoy.../
+\E7* We have a lot to go over today.../
 obj_classscene_slash_Step_0_gml_608_0
-\E6* Primero^1, empezaremos a leer el libro desde la pag 142!/
+\E6* First^1, we're starting the reading from page 142!/
 obj_classscene_slash_Step_0_gml_609_0
-\E4* Algun..^1. Algun voluntario?/%
+\E4* Any..^1. any volunteers?/%
 obj_classscene_slash_Step_0_gml_616_0
-\E2* Umm^1, Yo..^1. Supongo que podria leer el../%
+\E2* Umm^1, I..^1. I guess I could read the.../%
 obj_classscene_slash_Step_0_gml_626_0
-\E1* Ah^1, no te molestes^1 Noelle./
+\E1* Ah^1, trouble yourself not^1, Noelle!/
 obj_classscene_slash_Step_0_gml_627_0
-\E2* Tomare valientemente este golpe de humillacion!!/
+\E2* I will valiantly take this blow of humiliation!!/
 obj_classscene_slash_Step_0_gml_629_0
-\E3* Umm^1, e-eso esta bien^1, Adelante.../%
+\E3* Umm^1, t-that's OK^1, I can.../%
 obj_classscene_slash_Step_0_gml_643_0
 \E0* A-HEM./
 obj_classscene_slash_Step_0_gml_644_0
-\E1* "Pagina 142."/
+\E1* "Page 142."/
 obj_classscene_slash_Step_0_gml_645_0
-\E3* "Fue el mejor de los tiempos^1, fue el peor de los tiempos^1,"/
+\E3* "It was the best of times^1, it was the worst of times^1,"/
 obj_classscene_slash_Step_0_gml_646_0
-\E4* "Tiempos bastantes buenos. Tiempos bastantes malos."/
+\E4* "Times-a pretty good. Times-a pretty bad."/
 obj_classscene_slash_Step_0_gml_647_0
-\E2* "Tiempos mediocres. Iffy times. So-so times..."/%
+\E2* "Mediocre times. Iffy times. So-so times..."/%
 obj_classscene_slash_Step_0_gml_653_0
 * Listening to this^1, your eyes began to close automatically.../%
 customtimer
@@ -15313,27 +15336,27 @@ talkedtimes
 obj_krisroom_slash_Step_0_gml_321_0
 Kris...? /%
 obj_krisroom_slash_Step_0_gml_322_0
-Kris, carino...&Estas despierto...?^6 %%
+Kris, honey...&Are you awake...?^6 %%
 obj_krisroom_slash_Step_0_gml_323_0
-... es.... espera!^6 %%
+... w.... wait!^6 %%
 obj_krisroom_slash_Step_0_gml_324_0
-Es eso un...^6 %%
+Is that a...^6 %%
 obj_krisroom_slash_Step_0_gml_325_0
-Un cuchillo!!?^6 %%
+A knife!!?^6 %%
 whitefade
 obj_krisroom_slash_Step_0_gml_353_0
 NOOOOOOOO---!!! %%
 tor_actor
 obj_krisroom_slash_Step_0_gml_388_0
-* Kris^1, te comiste todo el pie!?/%
+* Kris^1, did you eat all of the pie!?/%
 obj_krisroom_slash_Step_0_gml_393_0
-\E3* Es este TU cuchillo que esta en lata vacia, verdad!?/
+\E3* It is YOUR knife in this empty tin, is it not!?/
 obj_krisroom_slash_Step_0_gml_394_0
 \E8* Oh, Kris.../%
 obj_krisroom_slash_Step_0_gml_399_0
-\E4* Voy a tener que cerrar el horno de nuevo?/%
+\E4* Am I going to have to lock the oven again?/%
 obj_krisroom_slash_Step_0_gml_406_0
-\E1* Bueno^1, levantate de tu cama^1. Es hora de la escuela./%
+\E1* Well^1, hurry out of bed^1. It is time for school./%
 hitmode
 ITEM
 item1
@@ -16448,16 +16471,23 @@ obj_npc_room_slash_Other_10_gml_1535_0
 * This guy always seems like he's enjoying life more than me./
 obj_npc_room_slash_Other_10_gml_1536_0
 * Maybe it's because he's a higher level...?/%
+obj_npc_room_slash_Other_10_gml_1574_0_b
+* Is this guy seriously sucking up to you already^1? Even though you hurt us?/
+obj_npc_room_slash_Other_10_gml_1575_0_b
+* He could at least wait until later today!/%
+obj_npc_room_slash_Other_10_gml_1560_0
+* (Seems like Hathy likes this place.)/
+obj_npc_room_slash_Other_10_gml_1561_0
+* (She hopes you'll like it too.)/%
+obj_npc_room_slash_Other_10_gml_1594_0
+obj_npc_room_slash_Other_10_gml_1595_0_b
+* (You feel an aura of forgiveness...)/%
 obj_npc_room_slash_Other_10_gml_1554_0
 * (Seems Hathy likes this place.)/
 obj_npc_room_slash_Other_10_gml_1555_0
 * (She hopes you'll find enough beds to inspect.)/
 obj_npc_room_slash_Other_10_gml_1556_0
 * (You'll lose your bed inspector title if you don't inspect enough beds.)/%
-obj_npc_room_slash_Other_10_gml_1560_0
-* (Seems like Hathy likes this place.)/
-obj_npc_room_slash_Other_10_gml_1561_0
-* (She hopes you'll like it too.)/%
 obj_npc_room_slash_Other_10_gml_1566_0
 * (Hathy's happy to see so many new faces.)/
 obj_npc_room_slash_Other_10_gml_1567_0
@@ -18057,11 +18087,11 @@ obj_savepoint_slash_Other_10_gml_41_0
 obj_savepoint_slash_Other_10_gml_42_0
 * You are filled with the power of friendship-based architecture./%
 obj_savepoint_slash_Other_10_gml_59_0
-* (Tocaste la luz...)/
+* (You touched the light...)/
 obj_savepoint_slash_Other_10_gml_60_0_b
-* (Pensaste en como \cRya no puedes volver al Mundo Cibernetico\cW.)/
+* (You thought about how you \cRcan't go back to the Cyber World\cW anymore.)/
 obj_savepoint_slash_Other_10_gml_61_0_b
-* (Usted lo considero cuidadosamente!)/%
+* (You considered this carefully!)/%
 obj_savepoint_slash_Other_10_gml_50_0
 * After a long day^1, the town has grown once again./
 obj_savepoint_slash_Other_10_gml_51_0
@@ -19226,22 +19256,22 @@ obj_readable_room1_slash_Other_10_gml_2634_0
 * (The rest is cut off.)/%
 obj_readable_room1_slash_Other_10_gml_2638_0
 * (It's a torn poster.)/%
-obj_readable_room1_slash_Other_10_gml_2633_0_b
-* (Mice will rotate 90 degrees when they collide with the block.)/
-obj_readable_room1_slash_Other_10_gml_2634_0_b
-* (Citizens must push blocks to get mice in the holes. Use the bell to reset.)/%
-obj_readable_room1_slash_Other_10_gml_2640_0
-* (It's a citizen's duty to properly rotate and release mice using the traffic signs.)/
-obj_readable_room1_slash_Other_10_gml_2641_0
-* ~1: Engage and Disengage.&* ~2 ~3: Rotate.&* ~4: Release./%
-obj_readable_room1_slash_Other_10_gml_2651_0
-* (It's a hole for mice to come from.)/%
-obj_readable_room1_slash_Other_10_gml_2656_0
-* (The hole is empty.)/%
 obj_readable_room1_slash_Other_10_gml_2665_0
 * (It's a hole for mice to enter into.)/%
 obj_readable_room1_slash_Other_10_gml_2670_0
 * (There are mice inside scampering pleasingly.)/%
+obj_readable_room1_slash_Other_10_gml_2633_0_b
+* (Mice will rotate 90 degrees when they collide with the block.)/
+obj_readable_room1_slash_Other_10_gml_2634_0_b
+* (Citizens must push blocks to get mice in the holes. Use the bell to reset.)/%
+obj_readable_room1_slash_Other_10_gml_2651_0
+* (It's a hole for mice to come from.)/%
+obj_readable_room1_slash_Other_10_gml_2656_0
+* (The hole is empty.)/%
+obj_readable_room1_slash_Other_10_gml_2640_0
+* (It's a citizen's duty to properly rotate and release mice using the traffic signs.)/
+obj_readable_room1_slash_Other_10_gml_2641_0
+* ~1: Engage and Disengage.&* ~2 ~3: Rotate.&* ~4: Release./%
 obj_readable_room1_slash_Other_10_gml_2681_0
 \E0* It's locked.../
 obj_readable_room1_slash_Other_10_gml_2682_0
@@ -20252,10 +20282,10 @@ getmusvol
 curvol
 menu_sprite
 obj_darkcontroller_slash_Draw_0_gml_94_0
-Auto-Correr
+Auto-Run
 autorun_text
 obj_darkcontroller_slash_Draw_0_gml_96_0
-Atras
+Back
 back_text
 gamepad_controls
 obj_darkcontroller_slash_Create_0_gml_153_2
@@ -20340,7 +20370,7 @@ _xPos
 _heartXPos
 _selectXPos
 obj_darkcontroller_slash_Draw_0_gml_74_0
-CONFIGURACION
+CONFIG
 audvol
 musvol
 obj_darkcontroller_slash_Draw_0_gml_82_0
@@ -20359,49 +20389,49 @@ fullscreenoff
 window_get_fullscreen
 obj_darkcontroller_slash_Draw_0_gml_87_1
 obj_darkcontroller_slash_Draw_0_gml_86_0
-Volumen General
+Master Volume
 obj_darkcontroller_slash_Draw_0_gml_91_0
 obj_darkcontroller_slash_Draw_0_gml_92_0
-Simplificar VFX
+Simplify VFX
 obj_darkcontroller_slash_Draw_0_gml_112_0
 Border
 obj_darkcontroller_slash_Draw_0_gml_95_0
-Regresar al menu
+Return to Title
 obj_darkcontroller_slash_Draw_0_gml_93_0
-Pantalla Completa
+Fullscreen
 gamepad_get_description
 Sony DualShock 4
 _yOffset
 _headerOffset
 obj_darkcontroller_slash_Draw_0_gml_113_0
-Funcion
+Function
 buttonXPos
 buttonYPos
 obj_darkcontroller_slash_Draw_0_gml_147_0
 Button
 obj_darkcontroller_slash_Draw_0_gml_114_0
-Tecla asignada
+Key
 obj_darkcontroller_slash_Draw_0_gml_115_0
 Gamepad
 obj_darkcontroller_slash_Draw_0_gml_117_0
-BAJAR
+DOWN
 my_function
 obj_darkcontroller_slash_Draw_0_gml_118_0
-DERECHA
+RIGHT
 obj_darkcontroller_slash_Draw_0_gml_119_0
-ARRIBA
+UP
 obj_darkcontroller_slash_Draw_0_gml_120_0
-IZQUIERDA
+LEFT
 obj_darkcontroller_slash_Draw_0_gml_121_0
-CONFIRMAR
+CONFIRM
 obj_darkcontroller_slash_Draw_0_gml_122_0
-CANCELAR
+CANCEL
 obj_darkcontroller_slash_Draw_0_gml_123_0
 MENU
 obj_darkcontroller_slash_Draw_0_gml_124_0
-Restablecer a predeterminado
+Reset to default
 obj_darkcontroller_slash_Draw_0_gml_125_0
-Guardar
+Finish
 voff
 _heartYPos
 _heartHeight
@@ -20556,13 +20586,13 @@ itemoff
 obj_darkcontroller_slash_Draw_0_gml_837_0
 USE
 obj_darkcontroller_slash_Draw_0_gml_839_0
-Tirar
+TOSS
 obj_darkcontroller_slash_Draw_0_gml_841_0
-OBJ CLAVE
+KEY
 yheart
 xheart
 obj_darkcontroller_slash_Draw_0_gml_956_0
-¿Realmente quieres tirar el#~1?
+Really throw away the#~1?
 kill
 obj_healwriter_slash_Draw_0_gml_4_0
 +~1
@@ -20746,7 +20776,7 @@ obj_fusionmenu_slash_Step_0_gml_280_0
 obj_fusionmenu_slash_Step_0_gml_285_0
 alternateMenu
 obj_fusionmenu_slash_Step_0_gml_377_0
-Reclutado!
+Recruited!
  / 
 _seatcheck
 cafenpc
@@ -20814,7 +20844,7 @@ botbary
 obj_fusionmenu_slash_Draw_0_gml_171_0
 Page 
 obj_fusionmenu_slash_Draw_0_gml_14_0
-Reclutas
+Recruits
 reccolor
 draw_rectangle_color
 recruitspriteheight
@@ -20822,28 +20852,28 @@ recruitspritewidth
 rx
 ry
 obj_fusionmenu_slash_Draw_0_gml_47_0
-CAPITULO 
+CHAPTER 
 obj_fusionmenu_slash_Draw_0_gml_48_0
 LV 
 obj_fusionmenu_slash_Draw_0_gml_70_0
 More Info
 obj_fusionmenu_slash_Draw_0_gml_71_0
 obj_fusionmenu_slash_Draw_0_gml_50_0
-~1: Mas Info#~2: Salir
+~1: More Info#~2: Quit
 obj_fusionmenu_slash_Draw_0_gml_83_0
 obj_fusionmenu_slash_Draw_0_gml_84_0_b
 obj_fusionmenu_slash_Draw_0_gml_51_0
 obj_fusionmenu_slash_Draw_0_gml_56_0
-PROGRESO
+PROGRESS
 obj_fusionmenu_slash_Draw_0_gml_84_0
 draw_get_font
 memfont
 draw_text_ext_transformed
 obj_fusionmenu_slash_Draw_0_gml_87_0
-GUSTOS
+LIKE
 stringl
 obj_fusionmenu_slash_Draw_0_gml_88_0
-ODIOS
+DISLIKE
 obj_fusionmenu_slash_Draw_0_gml_89_0
 ?????
 obj_fusionmenu_slash_Draw_0_gml_90_0
@@ -20854,11 +20884,11 @@ obj_fusionmenu_slash_Draw_0_gml_94_0
 obj_fusionmenu_slash_Draw_0_gml_95_0
 stringn
 obj_fusionmenu_slash_Draw_0_gml_96_0
-ATAQUE
+ATTACK
 obj_fusionmenu_slash_Draw_0_gml_97_0
-DEFENSA
+DEFENSE
 obj_fusionmenu_slash_Draw_0_gml_98_0
-ELEMENTO  
+ELEMENT  
 stringo
 stringel
 stringlscale
@@ -20870,14 +20900,14 @@ obj_fusionmenu_slash_Draw_0_gml_125_0
 obj_fusionmenu_slash_Draw_0_gml_129_0
 Cannot Place
 obj_fusionmenu_slash_Draw_0_gml_186_0
-Regresar
+Return
 obj_fusionmenu_slash_Draw_0_gml_132_0
 ~1: Return
 button_x
 obj_fusionmenu_slash_Draw_0_gml_199_0
-Presiona         para Volver
+Press         to Return
 obj_fusionmenu_slash_Draw_0_gml_136_0
-Presiona ~1 para Volver
+Press ~1 to Return
 obj_fusionmenu_slash_Draw_0_gml_154_0
 HELD
 POCKET
@@ -21102,7 +21132,7 @@ _5
 sprite_remove_
 .PNG
 sprite_translate_
-Capitulo 2
+Chapter 2
 text_color
 kq
 idealhskew
@@ -23978,7 +24008,7 @@ canDestroyTimer
 spare
 mercy_act
 obj_werewerewire_enemy_slash_Step_0_gml_97_0
-* Werewerewire's wire is loose!
+* Werewerewire's wire is loose^1!&* ... well^1, it would be.
 obj_werewerewire_enemy_slash_Step_0_gml_101_0
 * Werewerewire crackles at a level too high for you to understand.
 obj_werewerewire_enemy_slash_Step_0_gml_102_0
@@ -25546,6 +25576,8 @@ lasex
 lasey
 laserdir
 randomvspeed
+takedamageamount
+hellmode
 eyes
 nose
 mouth
@@ -25576,6 +25608,7 @@ skip_2nd_part_hp
 hpmax
 frametype
 myspeed
+xhold
 extra_speed
 sn
 _conewidth
@@ -26081,6 +26114,7 @@ obj_spamton_neo_enemy_slash_Step_0_gml_643_0
 * The power Ralsei's fluffy warmth surrounds you!./%
 obj_spamton_neo_enemy_slash_Step_0_gml_643_1
 * Ralsei defended you!/%
+fluff
 obj_spamton_neo_enemy_slash_Step_0_gml_679_0
 * You have too many tiny Ralsei!/%
 trackspeed
@@ -27737,13 +27771,13 @@ returnroom
 talkanim
 shopkeepsprite
 obj_shop1_slash_Draw_0_gml_98_0
-\E0* Tomate tu tiempo...^1.&* No es como si&fuera mejor&gastado.
+\E0* Take your time..^1.&* Ain't like it's&better spent.
 obj_shop1_slash_Draw_0_gml_99_0
-\E0* Hee hee..^1.&* Bienvenidos, viajeros.
+\E0* Hee hee..^1.&* Welcome, travellers.
 obj_shop1_slash_Draw_0_gml_106_0
-Comprar
+Buy
 obj_shop1_slash_Draw_0_gml_107_0
-Vender
+Sell
 obj_shop1_slash_Draw_0_gml_108_0
 obj_shop1_slash_Draw_0_gml_109_0
 obj_shop1_slash_Draw_0_gml_143_0
@@ -27789,16 +27823,16 @@ obj_shop1_slash_Draw_0_gml_240_0
 obj_shop1_slash_Draw_0_gml_255_0
 \E0Don't have&anything&better&to do.
 obj_shop1_slash_Draw_0_gml_278_0
-Vender items
+Sell Items
 obj_shop1_slash_Draw_0_gml_279_0
-Vender Armas
+Sell Weapons
 obj_shop1_slash_Draw_0_gml_280_0
-Vender Armaduras
+Sell Armor
 obj_shop1_slash_Draw_0_gml_292_0
-Vender Items Avanzados
+Sell Pocket Items
 obj_shop1_slash_Draw_0_gml_293_0
 obj_shop1_slash_Draw_0_gml_285_0
-\E0Que tipo&de basura&tienes?
+\E0What kind&of junk&you got?
 obj_shop1_slash_Draw_0_gml_286_0
 \E0That's it&for that.
 obj_shop1_slash_Draw_0_gml_287_0
@@ -27825,7 +27859,7 @@ obj_shop1_slash_Draw_0_gml_407_0
 obj_shop1_slash_Draw_0_gml_367_0
 obj_shop1_slash_Draw_0_gml_368_0
 obj_shop1_slash_Draw_0_gml_395_0
-\E0* Nos veremos de nuevo..^1.&* O no.^1.&* Ja, Ja, Ja. Ja.../%
+\E0* See you again..^1.&* Or not^1.&* Ha ha ha ha.../%
 obj_shop1_slash_Draw_0_gml_399_0
 \E0* The name's Seam.&* Pronounced "Shawm."/
 obj_shop1_slash_Draw_0_gml_400_0
@@ -28814,7 +28848,7 @@ STRINGMAX
 DEVICE_CHOICE_slash_Create_0_gml_28_0
 NO
 DEVICE_CHOICE_slash_Create_0_gml_29_0
-SI
+YES
 IDEALX
 IDEALY
 DEVICE_CHOICE_slash_Create_0_gml_64_0
@@ -28927,14 +28961,14 @@ DRAWNAME
 CANCELMENU
 JA_YOFF
 DEVICE_NAMER_slash_Draw_0_gml_18_0
-PON TU NOMBRE PROPIO.
+ENTER YOUR OWN NAME.
 CHOICE
 FN_3
 GASTER
 がすたー
 ガスター
 DEVICE_NAMER_slash_Draw_0_gml_84_0
-ESTE ES TU NOMBRE?
+THIS IS YOUR NAME.
 FIXY
 MENU_NO
 AUDIO_DRONE.ogg
@@ -29209,10 +29243,10 @@ CANQUIT
 THREAT
 TEMPMESSAGE
 MESSAGETIMER
-1.06
+1.07
 version_text
-1.03a
-1.02
+1.03b
+1.03
 cadd
 DEVICE_MENU_slash_Create_0_gml_182_0
 NO DATA
@@ -29270,7 +29304,7 @@ DEVICE_MENU_slash_Step_0_gml_227_0
 DEVICE_MENU_slash_Step_0_gml_238_0
 IT IS IMMUNE TO ITS OWN IMAGE.
 DEVICE_MENU_slash_Step_0_gml_239_0
-No puedes copiar esto aqui.
+You can't copy there.
 DEVICE_MENU_slash_Step_0_gml_261_0
 IT IS BARREN AND CANNOT BE COPIED.
 DEVICE_MENU_slash_Step_0_gml_264_0
@@ -29313,13 +29347,13 @@ NOWTIME
 DEVICE_MENU_slash_Draw_0_gml_130_0
 FILE not found.
 DEVICE_MENU_slash_Draw_0_gml_125_0
-PROGRESO no encontrado.
+Completion FILE not found.
 DEVICE_MENU_slash_Draw_0_gml_115_0
 SELTEXT_C
 DEVICE_MENU_slash_Draw_0_gml_116_0
 SELTEXT_A
 DEVICE_MENU_slash_Draw_0_gml_116_1
-VOLVER
+BACK
 SELTEXT_B
 DEVICE_MENU_slash_Draw_0_gml_117_0
 BEGIN
@@ -29339,10 +29373,10 @@ DEVICE_MENU_slash_Draw_0_gml_121_2
 THEN IT WILL BE DESTROYED.
 DEVICE_MENU_slash_Draw_0_gml_127_0
 DEVICE_MENU_slash_Draw_0_gml_128_0
-Continuar
+Continue
 DEVICE_MENU_slash_Draw_0_gml_128_1
 DEVICE_MENU_slash_Draw_0_gml_129_0
-Iniciar
+Start
 DEVICE_MENU_slash_Draw_0_gml_129_1
 DEVICE_MENU_slash_Draw_0_gml_131_0
 DEVICE_MENU_slash_Draw_0_gml_131_1
@@ -29351,46 +29385,46 @@ Copy over this file?
 DEVICE_MENU_slash_Draw_0_gml_132_0
 DEVICE_MENU_slash_Draw_0_gml_132_1
 DEVICE_MENU_slash_Draw_0_gml_132_2
-¿Borrar este archivo?
+Erase this file?
 DEVICE_MENU_slash_Draw_0_gml_133_0
-Si!
+Yes!
 DEVICE_MENU_slash_Draw_0_gml_133_1
 No!
 DEVICE_MENU_slash_Draw_0_gml_133_2
-¿Realmente lo borraras?
+Really erase it?
 DEVICE_MENU_slash_Draw_0_gml_164_0
 DEVICE_MENU_slash_Draw_0_gml_165_0
 DEVICE_MENU_slash_Draw_0_gml_166_0
 NOWPLACE
 DEVICE_MENU_slash_Draw_0_gml_194_0
-Tu Habitacion [Cap 1 FINAL]
+Your Room [Chapter 1 END]
 DEVICE_MENU_slash_Draw_0_gml_195_0
-[Hecho al ver los creditos.]
+[Made on seeing credits.]
 DEVICE_MENU_slash_Draw_0_gml_189_0
 CANCELTEXT
 DEVICE_MENU_slash_Draw_0_gml_190_0
 DEVICE_MENU_slash_Draw_0_gml_242_0
-No usar PROGRESO Capitulo 1
+Don't Use Chapter 1 FILE
 DEVICE_MENU_slash_Draw_0_gml_199_0
 COPY
 COPYTEXT
 DEVICE_MENU_slash_Draw_0_gml_200_0
 ERASETEXT
 DEVICE_MENU_slash_Draw_0_gml_253_0
-Cap 1 BACK
+Ch 1 Files
 CH1TEXT
 DEVICE_MENU_slash_Draw_0_gml_284_0
 CHSELECTTEXT
 DEVICE_MENU_slash_Draw_0_gml_285_0
-Finalizar juego
+End Program
 QUITTEXT
 日本語
 English
 LANGUAGETEXT
 DEVICE_MENU_slash_Draw_0_gml_201_0
-Copiar
+Copy
 DEVICE_MENU_slash_Draw_0_gml_201_1
-Borrar
+Erase
 languagex
 DELTARUNE 
  (C) Toby Fox 2018-2021 
@@ -29401,21 +29435,21 @@ DEVICE_MENU_slash_Draw_0_gml_217_0
 CHOOSE THE TARGET FOR THE REFLECTION.
 DEVICE_MENU_slash_Draw_0_gml_218_0
 DEVICE_MENU_slash_Draw_0_gml_219_0
-SELECCIÓNA UNO PARA BORRAR.
+SELECT THE ONE TO ERASE.
 DEVICE_MENU_slash_Draw_0_gml_223_0
-Por favor, selecciona un archivo.
+Please select a file.
 DEVICE_MENU_slash_Draw_0_gml_224_0
-Escoje un slot para copiar.
+Choose a file to copy.
 DEVICE_MENU_slash_Draw_0_gml_225_0
-Escoje un slot para copiar hacia.
+Choose a file to copy to.
 DEVICE_MENU_slash_Draw_0_gml_226_0
 The file will be overwritten.
 DEVICE_MENU_slash_Draw_0_gml_227_0
-Selecciona un archivo para borrar.
+Choose a file to erase.
 DEVICE_MENU_slash_Draw_0_gml_291_0
-Iniciar Capitulo 2 desde el Capitulo 1.
+Start Chapter 2 from Chapter 1's FILE.
 DEVICE_MENU_slash_Draw_0_gml_292_0
-Esto iniciará el Capítulo 2 en el archivo N-~1.
+This will start Chapter 2 in FILE Slot ~1.
 xstretch
 ystretch
 o_insurance
@@ -29934,7 +29968,7 @@ destroyme
 noelle_chalk
 car_actor
 obj_ch2_lw_cutscenes_short_slash_Step_0_gml_35_0
-* Bueno^1, nos vamos?/%
+* Well^1, shall we go?/%
 obj_ch2_lw_cutscenes_short_slash_Step_0_gml_101_0
 \EQ* ..^1. well LOOK who it is. The school zombie./
 obj_ch2_lw_cutscenes_short_slash_Step_0_gml_102_0
@@ -30224,6 +30258,22 @@ obj_ch2_scene6_slash_Step_0_gml_566_0
 \E2* Hey^1, Kris^1, dunno what you did^1, but hell yeah!/%
 obj_ch2_scene6_slash_Step_0_gml_570_0
 \E9* Everyone's here!/%
+obj_ch2_scene6_slash_Step_0_gml_591_0
+\EK* Uh^1, hey. Wait. I think we beat up some of these guys./
+obj_ch2_scene6_slash_Step_0_gml_592_0
+\EC* Are they not gonna like..^1. gang up on us now?/
+obj_ch2_scene6_slash_Step_0_gml_594_0
+\E3* Don't worry^1, Susie!/%
+obj_ch2_scene6_slash_Step_0_gml_600_0_b
+\E1* Pop-pop got trapped in a hamster cage^1, making me Prince King./
+obj_ch2_scene6_slash_Step_0_gml_601_0
+\E2* And with my new dad-like powers^1, I declared you forgiven!/
+obj_ch2_scene6_slash_Step_0_gml_603_0
+\E3* Cool^1, well^1, guess I won't beat anyone up here^1, either./
+obj_ch2_scene6_slash_Step_0_gml_605_0_b
+\E3* Yep^1! Now all that's left is for everyone to enjoy the new home!/%
+obj_ch2_scene6_slash_Step_0_gml_614_0
+\EC* Wait^1, new home? Where's your..^1. OLD home?/%
 obj_ch2_scene6_slash_Step_0_gml_576_0
 \E0* .. but^1, uh^1, what happened to^1, uh^1, Lancer's castle?/%
 obj_ch2_scene6_slash_Step_0_gml_587_0
@@ -36353,11 +36403,14 @@ ralY
 desiredpoint
 _camY
 _percent
+lastY
+yChange
 fadeInSpeed
 _laneX
 draw_sprite_stretched_ext
 _laneEnd
 _fadeAmt
+_top
 playSound
 _yDiff
 shouldActivate
@@ -36770,10 +36823,10 @@ menuheight
 obj_savemenu_slash_Draw_0_gml_34_0
 LV ~1
 obj_savemenu_slash_Draw_0_gml_47_0
-Guardar
+Save
 obj_savemenu_slash_Draw_0_gml_48_0
 obj_savemenu_slash_Draw_0_gml_52_0_b
-EnderChest
+Storage
 obj_savemenu_slash_Draw_0_gml_54_0
 obj_savemenu_slash_Draw_0_gml_52_0
 File saved.
@@ -37246,6 +37299,7 @@ closed
 invulnerable
 fall
 gulped
+nointeract
 emergetimer
 lifespan
 breakcount
@@ -38351,6 +38405,7 @@ obj_jokerbattleevent_slash_Step_0_gml_313_0
 obj_jokerbattleevent_slash_Step_0_gml_314_0
 obj_jokerbattleevent_slash_Step_0_gml_315_0
 obj_jokerbattleevent_slash_Step_0_gml_316_0
+obj_jokerbattleevent_slash_Step_0_gml_362_0
 obj_jokerbattleevent_slash_Step_0_gml_344_0
 obj_jokerbattleevent_slash_Step_0_gml_348_0
 obj_jokerbattleevent_slash_Step_0_gml_357_0
@@ -41770,9 +41825,9 @@ DEVICE_FAILURE_slash_Create_0_gml_10_0
 DEVICE_FAILURE_slash_Step_0_gml_95_0
 NAMEFADE
 NAMEFADE_COMPLETE
-1.06 
-1.03a 
-1.02 
+1.07 
+1.03b 
+1.03 
 DEVICE_MENU_slash_Step_0_gml_35_0
 DEVICE_MENU_slash_Step_0_gml_86_1
 CHAPTER SELECT
@@ -41849,6 +41904,7 @@ obj_overworldc_slash_Step_0_gml_33_0
 obj_overworldc_slash_Step_0_gml_35_0
 obj_overworldc_slash_Step_0_gml_37_0
 obj_overworldc_slash_Step_0_gml_41_0
+obj_overworldc_slash_Step_0_gml_43_0
 obj_overworldc_slash_Draw_0_gml_36_0
 obj_overworldc_slash_Draw_0_gml_39_0
 obj_overworldc_slash_Draw_0_gml_67_0
@@ -41902,7 +41958,7 @@ _colorB
 Visit the UNDERTALE page#in the 
 で「UNDERTALE」の#ページをチェックしますか？ 
 global.currentroom : 
-NA
+Default
 @@SleepMargin
 20
 @@DrawColour
@@ -43900,6 +43956,7 @@ spr_krisb_virokun_nurse
 spr_krisb_wan
 spr_krisb_wan_tail
 spr_krisb_wiggle
+spr_fluffy_guard_new
 spr_krisb_ready_throw_torso
 spr_krisb_ready_throw_full
 spr_krisb_throw
@@ -45793,6 +45850,7 @@ spr_postbaseball_lightingtower_top
 spr_berdly_smug_point_right
 spr_arcade_fight
 spr_maus_critter_stuck
+spr_pipis_egg_ribbon
 spr_queen_wine_box_fakeittillyoumakeit
 spr_traffic_car_side_legs_small_right
 spr_postbaseball_lightingtower_bottom
@@ -49634,7 +49692,6 @@ room_DARKempty_ch1
 room_battletest_ch1
 room_splashscreen_ch1
 ConsolePS4
-Default
 gml_GlobalScript_c_soundplay_wait
 gml_GlobalScript_draw_text_shadow_width
 gml_GlobalScript_scr_kana_check
@@ -56119,6 +56176,7 @@ gml_Object_obj_beatflash_Draw_0
 gml_Object_obj_beatflash_PreCreate_0
 gml_Object_obj_slidebullet_Create_0
 gml_Object_obj_slidebullet_Destroy_0
+gml_Object_obj_slidebullet_Other_10
 gml_Object_obj_slidebullet_Draw_0
 gml_Object_obj_slidebullet_PreCreate_0
 gml_Object_obj_beatbullet_Create_0
