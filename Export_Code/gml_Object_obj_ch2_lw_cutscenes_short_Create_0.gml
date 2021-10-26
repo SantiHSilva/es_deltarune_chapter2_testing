@@ -25,7 +25,7 @@ else
         global.facing = 2
         global.interact = 1
         noelle_chalk = global.flag[276] >= 2
-        if ((!noelle_chalk) && global.is_console)
+        if (!noelle_chalk)
             noelle_chalk = global.game_won
     }
     if (room == room_schoollobby && global.plot == 9)

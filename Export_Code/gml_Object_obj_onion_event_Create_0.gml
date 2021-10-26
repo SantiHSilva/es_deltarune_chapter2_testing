@@ -6,7 +6,4 @@ ocon = 0
 onioncount = 0
 customcon = 0
 if (global.flag[258] == 0)
-{
-    if global.is_console
-        global.flag[258] = global.game_won
-}
+    global.flag[258] = global.game_won

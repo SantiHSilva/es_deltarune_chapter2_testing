@@ -4,7 +4,7 @@ if window_get_fullscreen()
     ini_open("true_config.ini")
     ini_write_real("SCREEN", "FULLSCREEN", 0)
     ini_close()
-    window_set_size((640 * window_size_multiplier), (480 * window_size_multiplier))
+    window_set_size((640 * window_size_multiplier), (360 * window_size_multiplier))
     alarm[2] = 1
 }
 else

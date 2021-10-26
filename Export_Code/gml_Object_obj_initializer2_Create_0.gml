@@ -1,5 +1,5 @@
 global.is_console = (os_type == os_switch || os_type == os_ps4)
-global.screen_border_id = ""
+global.screen_border_id = "Dynamic"
 global.screen_border_active = true
 global.screen_border_alpha = 0
 global.screen_border_state = 0
@@ -10,6 +10,7 @@ global.savedata_async_load = 0
 global.savedata_error = 0
 global.savedata_debuginfo = ""
 global.game_won = false
+global.disable_border = false
 global.chapter = 2
 if instance_exists(obj_time_ch1)
 {

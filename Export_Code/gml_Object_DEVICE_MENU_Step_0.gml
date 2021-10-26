@@ -72,6 +72,9 @@ if (MENU_NO == 1 || MENU_NO == 4 || MENU_NO == 6 || MENU_NO == 7 || MENU_NO == 1
                             if (readval != -1)
                                 global.input_g[i] = readval
                         }
+                        global.screen_border_id = ini_read_string("BORDER", "TYPE", "Dynamic")
+                        var _disable_border = (global.screen_border_id == "None" || global.screen_border_id == "なし")
+                        scr_enable_screen_border((!_disable_border))
                         if (!global.is_console)
                             ini_close()
                         else
@@ -82,9 +85,6 @@ if (MENU_NO == 1 || MENU_NO == 4 || MENU_NO == 6 || MENU_NO == 7 || MENU_NO == 1
                             global.button0 = global.input_g[4]
                             global.button1 = global.input_g[5]
                             global.button2 = global.input_g[6]
-                            global.screen_border_id = ini_read_string("BORDER", "TYPE", "Dynamic")
-                            var _disable_border = (global.screen_border_id == "None" || global.screen_border_id == "なし")
-                            scr_enable_screen_border((!_disable_border))
                             ossafe_ini_close()
                             ossafe_savedata_save()
                         }

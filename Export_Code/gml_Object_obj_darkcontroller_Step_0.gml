@@ -213,50 +213,28 @@ if (global.interact == 5)
                     else
                         global.flag[8] = 0
                 }
-                if global.is_console
+                if (global.submenucoord[30] == 3)
                 {
-                    if (global.submenucoord[30] == 3)
-                    {
-                        if (global.flag[11] == 0)
-                            global.flag[11] = 1
-                        else
-                            global.flag[11] = 0
-                    }
-                    if (global.submenucoord[30] == 4)
-                    {
-                        if global.disable_border
-                            selectnoise = false
-                        else
-                        {
-                            global.submenu = 36
-                            check_border = true
-                            border_select = false
-                        }
-                    }
-                    if (global.submenucoord[30] == 5)
-                        global.submenu = 34
-                    if (global.submenucoord[30] == 6)
-                        m_quit = true
+                    if (global.flag[11] == 0)
+                        global.flag[11] = 1
+                    else
+                        global.flag[11] = 0
                 }
-                else
+                if (global.submenucoord[30] == 4)
                 {
-                    if (global.submenucoord[30] == 3)
+                    if global.disable_border
+                        selectnoise = false
+                    else
                     {
-                        with (obj_time)
-                            fullscreen_toggle = true
+                        global.submenu = 36
+                        check_border = true
+                        border_select = false
                     }
-                    if (global.submenucoord[30] == 4)
-                    {
-                        if (global.flag[11] == 0)
-                            global.flag[11] = 1
-                        else
-                            global.flag[11] = 0
-                    }
-                    if (global.submenucoord[30] == 5)
-                        global.submenu = 34
-                    if (global.submenucoord[30] == 6)
-                        m_quit = true
                 }
+                if (global.submenucoord[30] == 5)
+                    global.submenu = 34
+                if (global.submenucoord[30] == 6)
+                    m_quit = true
             }
             if (button2_p() && twobuffer < 0)
             {
@@ -649,7 +627,7 @@ if (global.interact == 5)
                 global.submenu = 30
             }
         }
-        if (global.is_console && global.submenu == 36)
+        if (global.submenu == 36)
         {
             if right_p()
             {

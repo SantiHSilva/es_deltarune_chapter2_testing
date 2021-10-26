@@ -11,7 +11,7 @@ sh = surface_get_height(application_surface)
 var scale_w = (ww / sw)
 var scale_h = (wh / sh)
 screenshot = -1
-if (os_type == os_switch && wh == 720)
+if ((os_type == os_switch && wh == 720) || (os_type == os_windows && wh == 720))
     global.window_scale = (4/3)
 else
     global.window_scale = floor(min(scale_w, scale_h))

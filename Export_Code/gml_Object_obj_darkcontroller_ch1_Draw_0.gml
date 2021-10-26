@@ -83,29 +83,17 @@ if (global.menuno == 5)
         draw_text(_xPos, (yy + 185), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_91_0")))
         draw_text(_xPos, (yy + 220), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_92_0")))
         draw_text(_selectXPos, (yy + 220), string_hash_to_newline(flashoff))
-        if global.is_console
-        {
-            draw_text(_xPos, (yy + 255), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_94_0")))
-            draw_text(_selectXPos, (yy + 255), string_hash_to_newline(runoff))
-            if (global.submenu == 36)
-                draw_set_color(c_yellow)
-            else if global.disable_border
-                draw_set_color(c_gray)
-            draw_text(_xPos, (yy + 290), border_text)
-            draw_text(_selectXPos, (yy + 290), border_options[selected_border])
-            draw_set_color(c_white)
-            draw_text(_xPos, (yy + 325), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_95_0")))
-            draw_text(_xPos, (yy + 360), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_96_0")))
-        }
-        else
-        {
-            draw_text(_xPos, (yy + 255), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_93_0")))
-            draw_text((xx + 430), (yy + 255), string_hash_to_newline(fullscreenoff))
-            draw_text(_xPos, (yy + 290), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_94_0")))
-            draw_text((xx + 430), (yy + 290), string_hash_to_newline(runoff))
-            draw_text(_xPos, (yy + 325), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_95_0")))
-            draw_text(_xPos, (yy + 360), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_96_0")))
-        }
+        draw_text(_xPos, (yy + 255), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_94_0")))
+        draw_text(_selectXPos, (yy + 255), string_hash_to_newline(runoff))
+        if (global.submenu == 36)
+            draw_set_color(c_yellow)
+        else if global.disable_border
+            draw_set_color(c_gray)
+        draw_text(_xPos, (yy + 290), border_text)
+        draw_text(_selectXPos, (yy + 290), border_options[selected_border])
+        draw_set_color(c_white)
+        draw_text(_xPos, (yy + 325), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_95_0")))
+        draw_text(_xPos, (yy + 360), string_hash_to_newline(scr_84_get_lang_string_ch1("obj_darkcontroller_slash_Draw_0_gml_96_0")))
     }
     if (global.submenu == 34)
     {

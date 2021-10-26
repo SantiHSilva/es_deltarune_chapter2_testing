@@ -52,19 +52,16 @@ display_width = display_get_width()
 window_size_multiplier = 1
 for (_ww = 2; _ww < 6; _ww += 1)
 {
-    if (display_width > (640 * _ww) && display_height > (480 * _ww))
+    if (display_width > (640 * _ww) && display_height > (360 * _ww))
         window_size_multiplier = _ww
 }
 if (window_size_multiplier > 1)
 {
-    window_set_size((640 * window_size_multiplier), (480 * window_size_multiplier))
+    window_set_size((640 * window_size_multiplier), (360 * window_size_multiplier))
     alarm[0] = 1
 }
-if global.is_console
-{
-    application_surface_enable(true)
-    application_surface_draw_enable(false)
-}
+application_surface_enable(true)
+application_surface_draw_enable(false)
 global.debug = true
 con = "init"
 file_found = 0
