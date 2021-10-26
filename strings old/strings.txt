@@ -17882,7 +17882,6 @@ obj_npc_room_animated_slash_Other_10_gml_475_0
 * Ahora está en un lugar mejor./%
 nubert_check
 obj_npc_room_animated_slash_Other_10_gml_489_0
-Enserio, donde!?
 obj_npc_room_animated_slash_Other_10_gml_492_0
 * Oh chico^1, oh chico^1! Soy \cBTrashy\cW!/
 obj_npc_room_animated_slash_Other_10_gml_493_0
@@ -34385,7 +34384,6 @@ obj_ch2_cyber01_slash_Step_0_gml_538_0
 obj_ch2_cyber01_slash_Step_0_gml_540_0
 \E2* Hey^1, perdedores!^1! Cálmense!^1! Se acabó la batalla!!/%
 obj_ch2_cyber01_slash_Step_0_gml_566_0
-NOSOTROS SOMOS los buenos!!!
 obj_ch2_cyber01_slash_Step_0_gml_567_0
 Solo sigueles el juego, Susie...
 obj_ch2_cyber01_slash_Step_0_gml_570_0
@@ -58343,3 +58341,4 @@ gml_GlobalScript_0
 gml_GlobalScript_1
 gml_GlobalScript_2
 gml_GlobalScript_3
+Comic Sans MS - DO NOT EDIT IN GAMEMAKER
